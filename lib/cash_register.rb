@@ -1,6 +1,4 @@
-class Cash_Register
-
-CashRegister={}
+class CashRegister
 
   attr_accessor :total, :employee_discount, :items
 
