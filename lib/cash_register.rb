@@ -10,9 +10,9 @@ class Cash_Register
   def total
     @total
   end
-  
+
   def add_item(title, price)
-    
+
 
   end
 
@@ -23,7 +23,7 @@ class Cash_Register
   def items
 
   end
-  
+
   def void_last_transaction
 
   end
