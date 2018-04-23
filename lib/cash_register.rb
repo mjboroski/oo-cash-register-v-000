@@ -20,7 +20,7 @@ class Cash_Register
 
   def apply_discount
     @total -= @employee_discount
-    
+
   end
 
   def items
