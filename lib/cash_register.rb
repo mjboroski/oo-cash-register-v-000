@@ -17,7 +17,7 @@ class CashRegister
 
   def add_item(title, price)
     @total += price
-    @items.push(title)
+    @items.add(title)
   end
 
   def apply_discount
