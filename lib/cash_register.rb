@@ -4,7 +4,7 @@ class CashRegister
 
   def initialize(employee_discount = 0)
     @total=0
-    @discount=employee_discount
+    @discount=employee_discount/100
   end
 
   def discount
@@ -21,7 +21,7 @@ class CashRegister
   end
 
   def apply_discount
-    @total -= ((@discount/100)*@total)
+    @total -= (@discount*@total)
 
   end
 
